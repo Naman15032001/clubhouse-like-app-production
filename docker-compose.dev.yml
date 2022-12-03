@@ -7,7 +7,7 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - /Users/naman/OneDrive/Documents/databases/mongodb/clubhouse-data:/data/db
+      - C:/Users/naman/OneDrive/Documents/databases/mongodb/clubhouse-data:/data/db
   backend:
     build:
       dockerfile: Dockerfile.dev
