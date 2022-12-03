@@ -1,0 +1,23 @@
+.message {
+    font-weight: bold;
+    font-size: 20x;
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.spinner {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
